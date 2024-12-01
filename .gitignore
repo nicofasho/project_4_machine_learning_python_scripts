@@ -1,0 +1,19 @@
+# Ignore everything
+*
+
+# But not .py files
+!*.py
+
+# Don't ignore .gitignore
+!.gitignore
+
+# Still ignore pycache even if it has .py extension
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Still ignore virtual environments
+venv/
+env/
+.env/
+.venv/
